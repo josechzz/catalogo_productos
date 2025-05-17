@@ -1,12 +1,41 @@
-# React + Vite
+# Catálogo de Productos con Favoritos 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React** que permite explorar un catálogo de productos, filtrarlos por categoría y agregar productos a favorito todos los datos se consumen desde la API pública [Fake Store API](https://fakestoreapi.com/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React** — Librería principal para la construcción de la interfaz.
+- **TailwindCSS** — Estilizado moderno y responsive.
+- **Vite** — Herramienta de construcción rápida para proyectos React.
+- **React Router DOM** — Para manejar rutas dinámicas como `/producto/:id`.
+- **React Context API** — Manejo global del estado de favoritos y carrito.
+- **localStorage** — Persistencia de favoritos y carrito entre sesiones.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Instrucciones para correr localmente
+
+1. **Clona el repositorio:**
+
+```bash 
+git clone https://github.com/tu-usuario/catalogo-productos.git
+cd catalogo-productos
+```
+
+2. **Instala las dependencias:**
+```bash 
+npm install
+```
+
+3. **Ejecuta la aplicación:**
+```bash 
+npm run dev
+```
+
+4. **Abre en tu navegador:**
+```bash 
+http://localhost:5173
+
+```
